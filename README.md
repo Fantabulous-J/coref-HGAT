@@ -6,15 +6,9 @@
 - ```./setup_training.sh <ontonotes/path/ontonotes-release-5.0> conll_data```.
 This assumes that you have access to OntoNotes 5.0. The preprocessed data will be included under ```conll_data```.
 
-### Extract Dependency Trees
-- ```wget https://nlp.stanford.edu/software/stanford-parser-4.0.0.zip``` and 
-  ```!unzip stanford-parser-4.0.0.zip``` to get the stanford parser.
-- ```python extract_constituency.py``` and ```python extract_gold_dependency``` will convert gold constituent
-parsing trees to Stanford dependency trees, which will be under ```conll_data```.
-
 ### Build Kernels
 - ```python setup.py install```. This will build kernel for extracting top spans implemented using the C++ interface
-of Pytorch.
+of PyTorch.
 
 
 ### Training
