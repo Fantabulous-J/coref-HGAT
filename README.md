@@ -2,7 +2,7 @@
 
 ### Setup
 
-- pip -r install requirements.txt
+- pip install -r requirements.txt
 - ```./setup_training.sh <ontonotes/path/ontonotes-release-5.0> conll_data```.
 This assumes that you have access to OntoNotes 5.0. The preprocessed data will be included under ```conll_data```.
 
